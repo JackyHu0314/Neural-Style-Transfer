@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+
+outputs/*
+!outputs/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+
+data/train/
+models/torch_cache/
+*.pth
+*.pt
+*.ckpt
+*.zip
